@@ -121,7 +121,7 @@ def decode(token, key, algorithms=None, options=None, audience=None, issuer=None
         "verify_iss": True,
         "verify_sub": True,
         "verify_jti": True,
-        "verify_at_hash": True,
+        "verify_at_hash": False,
         "require_aud": False,
         "require_iat": False,
         "require_exp": False,
